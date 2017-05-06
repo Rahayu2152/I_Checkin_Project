@@ -53,7 +53,7 @@ class Login extends CI_Controller {
             return true;
         
         } else {
-            $this->form_validation->set_message('verifylogin', 'Incorrect Login credentials');
+            $this->form_validation->set_message('verifylogin', 'Erorr Incorect');
             return false;
         }
     }
